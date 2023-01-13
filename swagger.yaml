@@ -186,7 +186,7 @@ paths:
       operationId: updatePetWithForm
       parameters:
         - name: petId
-          in: query
+          in: path
           description: ID of pet that needs to be updated
           required: true
           schema:
